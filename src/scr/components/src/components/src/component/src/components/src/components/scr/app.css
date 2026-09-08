@@ -1,0 +1,11 @@
+.navbar{ display:flex; justify-content:space-between; background:#24292f; color:white; padding:15px 30px; }
+.navbar a{ color:white; margin-left:20px; text-decoration:none; }
+.container{ padding:20px 40px; }
+.stats{ display:flex; gap:20px; margin:20px 0; }
+.card{ padding:20px; background:#f6f8fa; border:1px solid #ddd; border-radius:8px; font-weight:bold; }
+.issue-card{ border:1px solid #d0d7de; padding:15px; border-radius:8px; margin:10px 0; background:white; }
+.filters{ display:flex; gap:10px; margin-bottom:15px; }
+.filters input{ flex:1; padding:8px; }
+.form{ display:flex; flex-direction:column; gap:12px; max-width:500px; }
+.form input, .form textarea, .form select{ padding:10px; border-radius:6px; border:1px solid #ccc; }
+button{ background:#2da44e; color:white; border:none; padding:10px; border-radius:6px; cursor:pointer; }
